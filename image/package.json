@@ -1,0 +1,25 @@
+{
+  "name": "image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Samrat",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "cypress": "^3.2.0",
+    "weak-key": "^1.0.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development ./image/frontend/src/index.js --output ./image/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./image/frontend/src/index.js --output ./image/frontend/static/frontend/main.js"
+  }
+}
