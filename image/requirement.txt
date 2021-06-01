@@ -28,5 +28,5 @@ s3transfer==0.2.0
 six==1.12.0
 sqlparse==0.3.0
 storage==0.0.4.3
-urllib3==1.24.1
+urllib3==1.26.5
 vine==1.3.0
